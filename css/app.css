@@ -26,3 +26,15 @@ h1 {
 .name-place {
     color: var(--bs-blue)!important;
 }
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center center;
+}
+@media (min-width: 768px){
+    .hero{
+        height: 55rem;
+    }
+}
