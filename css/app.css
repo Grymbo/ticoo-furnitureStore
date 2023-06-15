@@ -22,6 +22,7 @@ h1 {
 }
 
 /**--- Rewriting colors ---**/
-.text-primary {
+.text-primary, 
+.name-place {
     color: var(--bs-blue)!important;
 }
