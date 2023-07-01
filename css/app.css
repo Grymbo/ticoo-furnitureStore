@@ -46,7 +46,8 @@ h3 {
 .btn-success {
     background-color: var(--bs-green)!important;
 }
-.bg-primary {
+.bg-primary,
+.btn-primary {
     background-color: var(--bs-blue)!important;
 }
 .hero {
@@ -82,4 +83,10 @@ h3 {
 /**--- Galery ---**/
 .galery li:not(:last-of-type) {
     margin-bottom: 1rem;
+}
+
+/**--- Form ---**/
+.form-control {
+    padding: 1rem;
+    font-size: 1.6rem;
 }

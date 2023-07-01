@@ -41,8 +41,73 @@
 
     <main class="container-xl py-5">
         <h2 class="text-center my-5">
-            Nombre de la pagina
+            Contact
         </h2>
+
+        <div class="row justify-content-center">
+            <form action="" class="col-md-8">
+                <fieldset>
+                    <legend class="bg-primary text-center text-white fs-2 fw-bold">Your Data</legend>
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Write your name please">
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject:</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Write your subject please">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Write your e-mail please">
+                    </div>
+                    <div class="mb-3">
+                        <label for="tel" class="form-label">Phone:</label>
+                        <input type="tel" class="form-control" id="tel" placeholder="Type your phone please">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Message:</label>
+                        <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="bg-primary text-center text-white fs-2 fw-bold">Country</legend>
+
+                    <div class="mb-3">
+                        <label for="country" class="form-label">Country:</label>
+                        <select name="country" id="country" class="form-control">
+                            <option value="">--Select--</option>
+                            <option value="EU">USA</option>
+                            <option value="MX">Mexico</option>
+                            <option value="PR">Peru</option>
+                            <option value="CO">Colombia</option>
+                            <option value="AR">Argentina</option>
+                            <option value="ES">Spain</option>
+                            <option value="CL">Chile</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="bg-primary text-center text-white fs-2 fw-bold">Extra Information</legend>
+
+                    <div class="mb-3">
+                        <label for="customer" class="form-label">Customer:</label>
+                        <input name="tipo" type="radio" class="form-check-input" id="customer">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="supplier" class="form-label">Supplier:</label>
+                        <input name="tipo" type="radio" class="form-check-input" id="supplier">
+                    </div>
+                </fieldset>
+
+                <div class="d-grid d-md-flex">
+                    <input type="submit" class="btn btn-success mt-5 fs-2 px-5 fw-bold" value="Send Form">
+                </div>
+            </form>
+        </div>
     </main>
 
     <footer class="pt-5 mt-5 border-top">
