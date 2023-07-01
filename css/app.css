@@ -78,3 +78,8 @@ h3 {
 .categoria img:hover {
     transform: scale(1.2);
 }
+
+/**--- Galery ---**/
+.galery li:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
