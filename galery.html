@@ -46,7 +46,9 @@
 
         <ul class="row list-unstyled galery">
             <li class="col-md-6 col-lg-4">
-                <img src="img/galeria_01.jpg" alt="imagen" class="img-fluid">
+                <a data-bs-toggle="modal" data-bs-target="#modal-image-1">
+                    <img src="img/galeria_01.jpg" alt="imagen" class="img-fluid">
+                </a>
             </li>
             <li class="col-md-6 col-lg-4">
                 <img src="img/galeria_02.jpg" alt="imagen" class="img-fluid">
@@ -74,6 +76,16 @@
             </li>
         </ul>
     </main>
+
+    <div class="modal fade" id="modal-image-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/galeria_01.jpg" alt="imagen" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="pt-5 mt-5 border-top">
         <div class="container-xl mt-5">
